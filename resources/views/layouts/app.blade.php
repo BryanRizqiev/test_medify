@@ -68,6 +68,13 @@
                             </div>
                         </li>
                         @endguest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('master-items') }}">{{ __('Master Item') }}</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('category-items') }}">{{ __('Category Items') }}</a>
+                        </li>
                     </ul>
                 </div>
             </div>
