@@ -10,9 +10,9 @@
             <div class="card">
 
                 @if($method == 'new')
-                <div class="card-header">Buat Master Item Baru</div>
+                <div class="card-header">Buat Kategori Item Baru</div>
                 @else
-                <div class="card-header">Edit Master Item</div>
+                <div class="card-header">Edit Kategori Item</div>
                 @endif
 
                 <div class="card-body">
